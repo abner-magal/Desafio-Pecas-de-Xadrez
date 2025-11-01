@@ -1027,8 +1027,9 @@ furnished to do so, subject to the following conditions:
 ### Autores
 
 **Abner Magalhães**
-- GitHub: [@abner-magal](https://github.com/abner-magal)
-- Repositório: [Desafio-Pe-as-de-Xadrez](https://github.com/abner-magal/Desafio-Pe-as-de-Xadrez)
+- 🔗 LinkedIn: [@abner-magalhaes](https://www.linkedin.com/in/abner-magalhaes-/)
+- 💻 GitHub: [@abner-magal](https://github.com/abner-magal)
+- 📦 Repositório: [Desafio-Pecas-de-Xadrez](https://github.com/abner-magal/Desafio-Pecas-de-Xadrez)
 
 ### Créditos e Referências
 

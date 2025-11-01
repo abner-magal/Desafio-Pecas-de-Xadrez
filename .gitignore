@@ -35,3 +35,8 @@ callgrind.out.*
 # Build temporário
 build/
 dist/
+
+# Documentos auxiliares
+perplexity.md
+Movimentação de Peças de Xadrez.pdf
+RELATORIO_FINAL.md
