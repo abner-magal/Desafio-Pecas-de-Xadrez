@@ -1,0 +1,37 @@
+# Binários compilados
+bin/
+*.o
+*.out
+*.exe
+
+# Arquivos de debug
+*.dSYM/
+vgcore.*
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Resultados de testes
+tests/
+coverage/
+*.gcda
+*.gcno
+*.gcov
+coverage.info
+
+# Profiling
+gmon.out
+perf.data
+callgrind.out.*
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Build temporário
+build/
+dist/

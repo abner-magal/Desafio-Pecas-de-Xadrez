@@ -1,0 +1,139 @@
+════════════════════════════════════════════════════════════
+      ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜  XADREZ COMPLETO  ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+════════════════════════════════════════════════════════════
+         Movimentação de Peças - Implementação Unificada
+         Todos os Níveis: Novato → Aventureiro → Mestre
+════════════════════════════════════════════════════════════
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+   🟢 NÍVEL NOVATO - ESTRUTURAS BÁSICAS
+────────────────────────────────────────────────────────────
+   Aplicação de FOR, WHILE e DO-WHILE
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+TORRE (loop FOR):
+Direita
+Direita
+Direita
+Direita
+Direita
+
+BISPO (loop WHILE):
+Cima Direita
+Cima Direita
+Cima Direita
+Cima Direita
+Cima Direita
+
+RAINHA (loop DO-WHILE):
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+   🟡 NÍVEL AVENTUREIRO - LOOPS ANINHADOS
+────────────────────────────────────────────────────────────
+   Movimento em 'L' do Cavalo: FOR externo + WHILE interno
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+TORRE (loop FOR - mantido do Novato):
+Direita
+Direita
+Direita
+Direita
+Direita
+
+BISPO (loop WHILE - mantido do Novato):
+Cima Direita
+Cima Direita
+Cima Direita
+Cima Direita
+Cima Direita
+
+RAINHA (loop DO-WHILE - mantido do Novato):
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+
+CAVALO (loops aninhados - NOVO):
+Baixo
+Baixo
+Esquerda
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+   🔴 NÍVEL MESTRE - RECURSIVIDADE AVANÇADA
+────────────────────────────────────────────────────────────
+   Substituindo iteração por recursão + loops complexos
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+TORRE (RECURSIVA - substitui FOR):
+Direita
+Direita
+Direita
+Direita
+Direita
+
+BISPO (RECURSIVA - substitui WHILE):
+Cima Direita
+Cima Direita
+Cima Direita
+Cima Direita
+Cima Direita
+
+BISPO (LOOPS ANINHADOS - decomposição):
+Cima
+Direita
+Cima
+Direita
+Cima
+Direita
+Cima
+Direita
+Cima
+Direita
+
+RAINHA (RECURSIVA - substitui DO-WHILE):
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+Esquerda
+
+CAVALO (LOOPS COMPLEXOS - continue/break):
+Cima
+Cima
+Direita
+
+════════════════════════════════════════════════════════════
+                  ✅ SIMULAÇÃO COMPLETA FINALIZADA
+════════════════════════════════════════════════════════════
+
+📊 Resumo da Execução:
+   ✓ Nível Novato:      3 peças (FOR, WHILE, DO-WHILE)
+   ✓ Nível Aventureiro: +1 peça (Cavalo com loops aninhados)
+   ✓ Nível Mestre:      4 peças (recursão + loops complexos)
+
+🎓 Técnicas Demonstradas:
+   • Estruturas de repetição (for, while, do-while)
+   • Loops aninhados (nested loops)
+   • Recursividade (caso base + caso recursivo)
+   • Controle de fluxo (continue, break)
+   • Decomposição de problemas complexos
+
+════════════════════════════════════════════════════════════
+        Desenvolvido para ensino de Programação em C
+                 github.com/abner-magal
+════════════════════════════════════════════════════════════
