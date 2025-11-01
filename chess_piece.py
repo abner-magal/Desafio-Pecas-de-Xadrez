@@ -324,7 +324,13 @@ class King(Piece):
         self.piece_type = PieceType.KING
     
     def can_move_to(self, target: Position, board: 'ChessBoard') -> bool:
-        """Valida movimento do rei"""
+        """
+        Valida movimento do rei
+        
+        Note:
+            Esta versão básica não valida se a casa de destino está sob ataque.
+            Para uma implementação completa, adicione is_square_attacked(target, opponent_color).
+        """
         if not target.is_valid():
             return False
         

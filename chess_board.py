@@ -117,6 +117,10 @@ class ChessBoard:
         
         Returns:
             True se o movimento foi executado com sucesso
+        
+        Note:
+            Esta versão básica não valida se o movimento deixa o rei em xeque.
+            Para uma implementação completa, adicione validação após executar o movimento.
         """
         piece = self.get_piece_at(start)
         
